@@ -1,5 +1,5 @@
 import './App.css'
-import Title from './components/titleCom/title'
+import Title from './components/common/titleCom/title'
 import Card from './components/cardCom/card'
 import Navbar from './components/navbarCom/navbar'
 import Content from './components/contentCom/content'

@@ -3,9 +3,9 @@ import './title.css'
 
 function Title () {
   return (
-    <div>
+    <div className='projectContent'>
       <h1> projects </h1>
-      <hr className='hr' />
+      <hr />
     </div>
   )
 }
