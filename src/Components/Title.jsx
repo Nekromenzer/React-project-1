@@ -1,11 +1,11 @@
 import React from 'react'
 import './title.css'
 
-function Title() {
+function Title () {
   return (
     <div>
-        <h1> projects </h1>
-        <hr className='hr'/>
+      <h1> projects </h1>
+      <hr className='hr' />
     </div>
   )
 }

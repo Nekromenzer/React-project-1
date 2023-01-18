@@ -1,6 +1,6 @@
 import './App.css'
-import AppNew from './Components/AppNew'
-import Title from './Components/Title'
+import AppNew from './components/AppNew'
+import Title from './components/Title'
 
 function App () {
   return (
