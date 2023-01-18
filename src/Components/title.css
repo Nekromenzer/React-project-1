@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,300&family=Playfair+Display:wght@600&display=swap');
+
+h1{
+ font-family: 'Merriweather',sans-serif;
+ font-weight: bold;
+ text-align: center;
+}
+.hr{
+    height: 4px;
+    width: 100px;
+    left: 40.5px;
+    top: 76px;
+    border-radius: 2px;
+    background: #FDC435;
+    border-radius: 2px;
+    border: none;
+    margin-top: -10px;
+
+}
+
