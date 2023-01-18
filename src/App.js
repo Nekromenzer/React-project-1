@@ -1,17 +1,18 @@
-import "./App.css";
+import './App.css'
+import Navbar from './components/navbarCom/navbar'
+import Content from './components/contentCom/content'
+import Project from './components/projectCom/project'
+import CardParent from './components/cardCom'
 
-import AppNew from "./Components/AppNew";
-import Title from "./Components/Title";
-
-function App() {
+function App () {
   return (
-    <div className="App">
-    <Title/>
-  <AppNew/>
-
-
+    <div className='App'>
+      <Navbar />
+      <Content />
+      <CardParent />
+      <Project />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
