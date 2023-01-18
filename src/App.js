@@ -1,23 +1,16 @@
 import './App.css'
-import Title from './components/common/titleCom/title'
-import Card from './components/cardCom/card'
 import Navbar from './components/navbarCom/navbar'
 import Content from './components/contentCom/content'
 import Project from './components/projectCom/project'
+import CardParent from './components/cardCom'
 
 function App () {
   return (
     <div className='App'>
       <Navbar />
       <Content />
+      <CardParent />
       <Project />
-      <Title />
-      <Card
-        title='rgrgrbrb'
-        imageUrl='https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg'
-        description='uruviurhivuhiu b jberwbikwv uiwkubgfv bbuwiuvuhburieu uruviruviuv'
-        order='true'
-      />
     </div>
   )
 }

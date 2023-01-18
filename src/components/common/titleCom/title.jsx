@@ -1,11 +1,11 @@
 import React from 'react'
 import './title.css'
 
-function Title () {
+function Title ({ title, noHr, textLeft }) {
   return (
     <div className='projectContent'>
-      <h1> projects </h1>
-      <hr />
+      <h1 style={{ textAlign: textLeft ? 'left' : 'center' }}> {title} </h1>
+      {!noHr && <hr />}
     </div>
   )
 }

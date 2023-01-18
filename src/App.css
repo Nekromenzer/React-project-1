@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
   padding: 0;
   background: #E5E5E5;
@@ -62,9 +62,9 @@ yellowBox {
 
 }
 
-.projectContent h1 {
+/* .projectContent h1 {
   text-align: center;
-}
+} */
 
 
 .projectContent hr {

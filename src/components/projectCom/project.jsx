@@ -1,12 +1,11 @@
 import React from 'react'
+import Title from '../common/titleCom/title'
 
 const Project = () => {
   return (
     <div className='projects'>
-      <div className='projectContent'>
-        <h1>Projects</h1>
-        <hr />
-      </div>
+      {/* title */}
+      <Title title='Projects' />
 
       <div className='form'>
         <div className='inputs'>
