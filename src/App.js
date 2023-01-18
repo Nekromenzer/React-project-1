@@ -1,12 +1,17 @@
 import './App.css'
-import AppNew from './components/AppNew'
-import Title from './components/Title'
+import Title from './components/titleCom/title'
+import Card from './components/cardCom/card'
 
 function App () {
   return (
     <div className='App'>
       <Title />
-      <AppNew />
+      <Card
+        title="rgrgrbrb"
+        imageUrl="https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg"
+        description="uruviurhivuhiu b jberwbikwv uiwkubgfv bbuwiuvuhburieu uruviruviuv"
+        order='true'
+      />
     </div>
   )
 }
