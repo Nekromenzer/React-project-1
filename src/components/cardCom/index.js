@@ -17,19 +17,19 @@ function Index () {
         title='Title 1'
         imageUrl='https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg'
         description='uruviurhivuhiu b jberwbikwv uiwkubgfv bbuwiuvuhburieu uruviruviuv'
-        order='true'
+        order={false}
       />
       <Card
         title='title 2'
         imageUrl='https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg'
         description='uruviurhivuhiu b jberwbikwv uiwkubgfv bbuwiuvuhburieu uruviruviuv'
-        order='false'
+        order={true}
       />
       <Card
         title='Title 3'
         imageUrl='https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg'
         description='uruviurhivuhiu b jberwbikwv uiwkubgfv bbuwiuvuhburieu uruviruviuv'
-        order='true'
+        order={false}
       />
     </div>
   )
