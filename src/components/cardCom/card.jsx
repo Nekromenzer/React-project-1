@@ -5,6 +5,8 @@ import Title from '../common/titleCom/title'
 function Card ({ title, imageUrl, description, order }) {
   return (
     // parent
+
+    // Nipun
     <div
       className='card-container'
       style={{ flexDirection: order ? 'row-reverse' : 'row' }}
