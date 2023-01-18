@@ -1,6 +1,7 @@
 import React from 'react'
+import Img1 from '../assets/background.png'
 import '../Styles.css'
-import Img1 from '../background.png'
+
 const Content = () => {
   return (
     <div className='Content'>
