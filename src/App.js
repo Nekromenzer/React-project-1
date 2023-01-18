@@ -1,17 +1,14 @@
-import "./App.css";
+import './App.css'
+import AppNew from './Components/AppNew'
+import Title from './Components/Title'
 
-import AppNew from "./Components/AppNew";
-import Title from "./Components/Title";
-
-function App() {
+function App () {
   return (
-    <div className="App">
-    <Title/>
-  <AppNew/>
-
-
+    <div className='App'>
+      <Title />
+      <AppNew />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
