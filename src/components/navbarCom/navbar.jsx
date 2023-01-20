@@ -4,6 +4,11 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <h3>Modelyn Torfy</h3>
+      <div className="icon">
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+        </div>  
       <ul>
         <li>
           <a href='#'>About</a>

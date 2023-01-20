@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,300&family=Playfair+Display:wght@600&display=swap');
 
-*{
-  font-family:'Merriweather', sans-serif;;
-}
+
 
 body {
   margin: 0;
@@ -150,6 +148,10 @@ body {
   margin-left: 94%;
 }
 
+.icon{
+  display: none;
+}
+
 /* media Quaries */
 
 @media (max-width:768px){
@@ -182,6 +184,21 @@ body {
     justify-content: center;
   }
 
+}
 
+
+@media (max-width:520px) {
+  .navbar  .icon{
+    display: show;
+    cursor: pointer;
+  }
+
+  .icon .line{
+    width: 30px;
+    height: 3px;
+    background: black;
+    margin: 6px 0;
+
+  }
 }
 
