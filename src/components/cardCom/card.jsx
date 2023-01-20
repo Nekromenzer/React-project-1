@@ -4,10 +4,7 @@ import Title from '../common/titleCom/title'
 
 function Card ({ title, imageUrl, description, order }) {
   return (
-    // comment by heshan
-    // parent
-
-    // Nipun
+   
     <div
       className='card-container'
       style={{ flexDirection: order ? 'row-reverse' : 'row' }}
@@ -35,7 +32,7 @@ function Card ({ title, imageUrl, description, order }) {
         {/* use common btn */}
         <div
           style={{
-            width: '200px',
+            width: '150px',
             border: '1px solid red',
             borderRadius: '25px',
             height: '30px',
