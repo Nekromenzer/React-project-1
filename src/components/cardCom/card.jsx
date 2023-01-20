@@ -34,7 +34,7 @@ function Card ({ title, imageUrl, description, order }) {
         {/* use common btn */}
         <div
           style={{
-            width: '200px',
+            width: '150px',
             border: '1px solid red',
             borderRadius: '25px',
             height: '30px',

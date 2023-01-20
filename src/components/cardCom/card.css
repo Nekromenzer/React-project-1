@@ -24,3 +24,25 @@
     /* align-items: center; */
     justify-content: center;
 }
+
+@media(max-width:768px){
+
+    .card-container {
+        display: flex;       
+        border-radius: 30px;
+        height: 24rem;
+        max-width: 41rem;
+        
+    }
+    .card-container div {
+        width: 22rem;
+    }
+    
+    .card-container .image-container img {
+        max-width: 22rem;
+        height: 24rem;
+        object-fit: cover;
+    }
+    
+
+}
