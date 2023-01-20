@@ -7,7 +7,7 @@ function Index () {
     {
       title: 'Title 1 dawd',
       imageUrl:
-        'https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg',
+        'https://cdn.pixabay.com/photo/2016/03/27/20/12/desk-1284085_960_720.jpg',
       description:
         'uruviurhivuhiu b jberwbikwv uiwkubgfv bbuwiuvuhburieu uruviruviuv',
       order: false
@@ -15,7 +15,7 @@ function Index () {
     {
       title: 'Title 2',
       imageUrl:
-        'https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg',
+        'https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg',
       description:
         'uruviurhivuhiu b jberwbikwv uiwkubgfv bbuwiuvuhburieu uruviruviuv',
       order: true
@@ -23,7 +23,7 @@ function Index () {
     {
       title: 'Title 3',
       imageUrl:
-        'https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_960_720.jpg',
+        'https://cdn.pixabay.com/photo/2015/01/09/11/09/meeting-594091_960_720.jpg',
       description:
         'uruviurhivuhiu b jberwbikwv uiwkubgfv bbuwiuvuhburieu uruviruviuv',
       order: false
