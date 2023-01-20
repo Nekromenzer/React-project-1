@@ -17,3 +17,9 @@ h1 {
     margin-top: -10px;
 
 }
+
+.text-bg{
+    background-color: red;
+    color: yellow;
+    font-size: 4rem;
+}
