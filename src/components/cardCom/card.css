@@ -31,7 +31,7 @@
         display: flex;       
         border-radius: 30px;
         height: 24rem;
-        max-width: 41rem;
+        max-width: 40rem;
         
     }
     .card-container div {
@@ -39,10 +39,28 @@
     }
     
     .card-container .image-container img {
-        max-width: 22rem;
+        max-width: 20rem;
         height: 24rem;
         object-fit: cover;
     }
-    
 
+}
+@media(max-width: 360px){
+
+    .card-container {
+        display: flex;       
+        border-radius: 30px;
+        height: 12rem;
+        max-width: 20rem;
+        
+    }
+    .card-container div {
+        width: 10rem;
+    }
+    
+    .card-container .image-container img {
+        max-width: 10rem;
+        height: 12rem;
+        object-fit: cover;
+    }
 }

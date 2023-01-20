@@ -5,7 +5,7 @@ import Card from './card'
 function Index () {
   const data = [
     {
-      title: 'Title 1 dawd',
+      title: 'Project 1',
       imageUrl:
         'https://cdn.pixabay.com/photo/2016/03/27/20/12/desk-1284085_960_720.jpg',
       description:
@@ -13,7 +13,7 @@ function Index () {
       order: false
     },
     {
-      title: 'Title 2',
+      title: 'Project 2',
       imageUrl:
         'https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg',
       description:
@@ -21,7 +21,7 @@ function Index () {
       order: true
     },
     {
-      title: 'Title 3',
+      title: 'Project 3',
       imageUrl:
         'https://cdn.pixabay.com/photo/2015/01/09/11/09/meeting-594091_960_720.jpg',
       description:
